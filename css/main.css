@@ -15,7 +15,6 @@
   --shadow-button: 0px 3px 1px rgba(0, 0, 0, 0.1),
     0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
   --input-placeholder: rgba(117, 117, 117, 0.5);
-
   --main-font: Roboto, sans-serif;
   --title-font: Roboto, sans-serif;
   --logo-font: Raleway, sans-serif;
@@ -52,12 +51,6 @@ img {
   display: block;
   max-width: 100%;
 }
-.container {
-  width: 1200px;
-  padding: 0 15px;
-  margin-left: auto;
-  margin-right: auto;
-}
 
 .visually-hidden {
   position: absolute !important;
@@ -68,6 +61,13 @@ img {
   height: 1px !important;
   width: 1px !important;
   overflow: hidden;
+}
+
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .page-header {
@@ -86,6 +86,7 @@ img {
   align-items: baseline;
   margin-right: auto;
 }
+
 .contacts {
   display: flex;
   align-items: center;
@@ -133,6 +134,7 @@ img {
   color: var(--main-text-color);
   text-decoration: none;
 }
+
 .link:hover,
 .link:focus {
   color: var(--accent-color);
@@ -187,11 +189,13 @@ img {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
 }
+
 .map-link {
   color: var(--page-title);
   font-style: normal;
   text-decoration: none;
 }
+
 .card-set {
   display: flex;
   flex-wrap: wrap;
@@ -223,11 +227,13 @@ img {
 .main-list {
   color: var(--title-color);
 }
+
 .list {
   margin: 0;
   padding-left: 0;
   list-style: none;
 }
+
 .list-bottom {
   font-weight: normal;
   font-size: 14px;
@@ -256,12 +262,7 @@ img {
   padding: 200px 0;
   margin: 0 auto;
   background-color: var(--bg-color);
-  background-image: linear-gradient(
-      to right,
-      rgba(47, 48, 58, 0.4),
-      rgba(47, 48, 58, 0.4)
-    ),
-    url(../images/img9.jpg);
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/img9.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -429,8 +430,7 @@ img {
 }
 
 .team-item {
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   background-color: var(--page-title);
 }
@@ -676,6 +676,7 @@ img {
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
 }
+
 .socials-around:hover,
 .socials-around:focus {
   background-color: var(--accent-color);
@@ -765,8 +766,7 @@ img {
   background-color: rgba(0, 0, 0, 0.2);
   opacity: 1;
   visibility: visible;
-  transition: opacity 1500ms cubic-bezier(0.4, 0, 0.2, 1),
-    visibility 1500ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity 1500ms cubic-bezier(0.4, 0, 0.2, 1), visibility 1500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .backdrop.is-hidden {
@@ -784,8 +784,7 @@ img {
   width: 528px;
   height: 581px;
   background-color: var(--page-title);
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   max-height: 100vh;
   margin-left: auto;
@@ -985,3 +984,4 @@ textarea:focus {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   cursor: pointer;
 }
+/*# sourceMappingURL=main.css.map */
