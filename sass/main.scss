@@ -25,31 +25,4 @@
 @import './layouts/team';
 @import './layouts/clients';
 @import './layouts/portfolio';
-
-.main-list {
-  color: var(--title-color);
-}
-
-.list-bottom {
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 1.71px;
-  letter-spacing: 0.03em;
-  color: var(--page-title);
-}
-
-.section-bottom {
-  background-color: #2f303a;
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
-
-.container-footer {
-  display: flex;
-  align-items: baseline;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 1200px;
-}
+@import './layouts/footer';

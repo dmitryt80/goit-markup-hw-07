@@ -84,11 +84,6 @@ img {
   margin-top: -30px;
 }
 
-.card-set-item {
-  margin-left: 30px;
-  margin-right: 30px;
-}
-
 .logo {
   display: block;
   margin-right: 93px;
@@ -971,18 +966,6 @@ textarea:focus {
   font-weight: 400;
   font-size: 18px;
   line-height: 28px;
-  letter-spacing: 0.03em;
-  color: var(--page-title);
-}
-
-.main-list {
-  color: var(--title-color);
-}
-
-.list-bottom {
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 1.71px;
   letter-spacing: 0.03em;
   color: var(--page-title);
 }
