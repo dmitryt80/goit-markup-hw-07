@@ -1,0 +1,51 @@
+.contacts {
+  display: flex;
+  align-items: center;
+  margin-left: 331px;
+}
+
+.contacts-e,
+.contacts-s {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: var(--main-text-color);
+}
+
+.contacts-e:hover,
+.contacts-e:focus {
+  color: var(--accent-color);
+}
+
+.contacts-s:hover,
+.contacts-s:focus {
+  color: var(--accent-color);
+}
+
+.envelope-icon {
+  margin-right: 10px;
+  fill: currentColor;
+}
+
+.smartphone-icon {
+  margin-right: 10px;
+  fill: currentColor;
+}
+
+.smartphone-icon:hover,
+.smartphone-icon:focus {
+  fill: #2196f3;
+}
+
+.contacts-item:nth-child(2) {
+  margin-left: 50px;
+}
+
+.link {
+  color: var(--main-text-color);
+  text-decoration: none;
+}
+.link:hover,
+.link:focus {
+  color: var(--accent-color);
+}
