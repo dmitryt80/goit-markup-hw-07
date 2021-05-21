@@ -15,7 +15,7 @@
   text-align: center;
 }
 
-.hero-button {
+.hero__button {
   font-weight: bold;
   font-size: 16px;
   line-height: 1.87;
@@ -28,6 +28,7 @@
   padding: 10px 32px;
   border-radius: 4px;
   border: transparent;
+  cursor: pointer;
 }
 
 .button {
@@ -54,7 +55,7 @@
   box-shadow: var(--shadow-button);
 }
 
-.page-title {
+.hero__page-title {
   max-width: 696px;
   font-family: var(--title-font);
   font-size: 44px;

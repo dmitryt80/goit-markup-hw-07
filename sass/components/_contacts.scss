@@ -22,30 +22,32 @@
   color: var(--accent-color);
 }
 
-.envelope-icon {
-  margin-right: 10px;
+.contacts__icon {
   fill: currentColor;
 }
 
-.smartphone-icon {
+.contacts__icon {
   margin-right: 10px;
-  fill: currentColor;
 }
 
-.smartphone-icon:hover,
-.smartphone-icon:focus {
+.contacts__icon:hover,
+.contacts__icon:focus {
   fill: #2196f3;
 }
 
-.contacts-item:nth-child(2) {
+.contacts__item:nth-child(2) {
   margin-left: 50px;
 }
 
-.link {
+.contacts__contacts__item {
+  margin-left: 50px;
+}
+
+.contacts__link {
   color: var(--main-text-color);
   text-decoration: none;
 }
-.link:hover,
-.link:focus {
+.contacts__link:hover,
+.contacts__link:focus {
   color: var(--accent-color);
 }

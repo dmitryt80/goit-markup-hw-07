@@ -1,4 +1,4 @@
-.menu-link {
+.menu__link {
   display: block;
   color: var(--title-color);
   font-weight: 500;
@@ -8,14 +8,14 @@
   transition-timing-function: var(--cubic-bezier);
 }
 
-.menu-link-current {
+.menu__link--current {
   position: relative;
   display: block;
   color: var(--accent-color);
   text-decoration: none;
 }
 
-.menu-link-current::after {
+.menu__link--current::after {
   position: absolute;
   bottom: 0;
   content: '';
@@ -27,8 +27,8 @@
   bottom: -33px;
 }
 
-.menu-link:hover,
-.menu-link:focus {
+.menu__link:hover,
+.menu__link:focus {
   color: var(--accent-color);
 }
 
@@ -37,6 +37,6 @@
   justify-content: center;
 }
 
-.menu-item:not(:last-child) {
+.menu__item:not(:last-child) {
   margin-right: 50px;
 }
