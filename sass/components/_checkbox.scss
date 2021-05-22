@@ -7,7 +7,7 @@
   border-radius: 2px;
 }
 
-.checkbox:checked + .icon {
+.form__checkbox:checked + .icon {
   background-image: url(../images/icons/svg/icon-check.svg);
   background-repeat: no-repeat;
   background-color: var(--accent-color);
@@ -17,6 +17,6 @@
   background-origin: border-box;
 }
 
-.checkbox:focus-within + .icon {
+.form__checkbox:focus-within + .icon {
   border-color: var(--accent-color);
 }

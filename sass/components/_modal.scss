@@ -52,9 +52,8 @@
 .icon-close {
   transition: fill 250ms var(--cubic-bezier);
 }
-
-.modal-button:hover .icon-close,
-.modal-button:focus .icon-close {
+.modal-button:hover,
+.icon-close .modal-button:focus .icon-close {
   fill: var(--accent-color);
 }
 

@@ -7,11 +7,11 @@
   justify-content: center;
 }
 
-.what-we-do-item:not(:last-child) {
+.what-we-do__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.what-we-do-thumb {
+.what-we-do__thumb {
   position: relative;
   bottom: 0;
   right: 0;
@@ -19,12 +19,12 @@
   height: 100%;
 }
 
-.what-we-do-name {
+.what-we-do__name {
   position: absolute;
   bottom: 0;
 }
 
-.what-we-do-text {
+.what-we-do__text {
   width: 370px;
   height: 70px;
   background-color: rgba(47, 48, 58, 0.8);
@@ -38,7 +38,7 @@
   color: var(--page-title);
 }
 
-.card-background {
+.what-we-do__card-background {
   color: var(--page-title);
   padding: 30px 32px;
 }

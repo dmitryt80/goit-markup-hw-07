@@ -1,27 +1,29 @@
-.section-team {
+.team {
   padding-top: 94px;
   padding-bottom: 94px;
   background-color: var(--section-background);
 }
 
-.container-team {
-  width: 1200px;
-  padding: 0 15px;
-  margin: 0 auto;
+.team__list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin-left: -30px;
+  margin-top: -30px;
 }
 
-.team-item:not(:last-child) {
+.team__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.team-item {
+.team__box {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   background-color: var(--page-title);
 }
 
-.team-item-position {
+.team__position {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -29,11 +31,14 @@
   line-height: 1.71;
   letter-spacing: 0.03em;
   text-align: center;
-  color: var(--main-text-color);
   margin-bottom: 8px;
 }
 
-.team-item-name {
+.team__position--color {
+  color: var(--main-text-color);
+}
+
+.team__name {
   font-family: var(--title-font);
   font-size: 16px;
   line-height: 1.16;
@@ -43,6 +48,6 @@
   margin-bottom: 8px;
 }
 
-.social-icons-item:not(:last-child) {
+.social-icons__item:not(:last-child) {
   margin-right: 10px;
 }
